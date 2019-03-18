@@ -40,5 +40,24 @@
     <input type="text" name="company_name"><br><br>
     <input type="submit">
   </form>
+  <h2>Attendee Information</h2>
+  <form action="attendee.php" method="get">
+    <input type="submit" value="Display Attendees"/>
+  </form>
+  <h3>Add and attendee</h3>
+  <form action="add_attendee.php" method="post">
+    <p>Attendee Name</p>
+    <input type="text" name="name"><br><br>
+    <p>Attendee ID</p>
+    <input type="text" name="id"><br><br>
+    <select name="type">
+      <option value = "student">Student</option>
+      <option value = "professional">Professional</option>
+      <option value = "sponsor">Sponsor</option>
+    </select>
+    <br><br>
+    <input type="submit">
+  </form>
+
 </body>
 </html>

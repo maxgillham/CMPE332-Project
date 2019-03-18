@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="conference.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+  <h1>Super Awesome Conference</h1>
+  <p> Wow, very cool.</p>
+  <h2>Subcomittee Information</h2>
+    <form action="subcomitee.php" method="post">
+      <select name="subcomitee_name">
+        <option value = "Dance Team">Dance Team</option>
+        <option value = "Power Squad">Power Squad</option>
+      </select>
+      <br><br>
+      <input type="submit">
+    </form>
+  <h2>Housing Information</h2>
+    <form action="hotel.php" method="post">
+      <p>Room Number:</p>
+      <input type="text" name="room"><br><br>
+      <input type="submit">
+    </form>
+  <h2>Schedule Information</h2>
+    <form action="schedule.php" method="post">
+      <select name="day">
+        <option value = "1">Day 1</option>
+        <option value = "2">Day 2</option>
+      </select>
+      <br><br>
+      <input type="submit">
+    </form>
+  <h2>Sponsorship Information</h2>
+  <form action="sponsorship.php" method="get">
+    <input type="submit" value="Who is sponsoring this event?"/>
+  </form>
+  <h2>Job Postings</h2>
+  <form action="jobposting.php" method="post">
+    <p>Commpany Name:</p>
+    <input type="text" name="company_name"><br><br>
+    <input type="submit">
+  </form>
+</body>
+</html>

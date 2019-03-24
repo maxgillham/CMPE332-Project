@@ -1,2 +1,9 @@
 table, th, td {border: 1px solid black;}
 p {color: blue;}
+
+.blocks {
+  background-color: LightBlue;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+}
